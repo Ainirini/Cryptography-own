@@ -1,7 +1,7 @@
 # Cryptography
-My project from Cryptography Elective Course
+My project from the Cryptography Elective Course
 ## Project
-Proyek-proyek yang telah dilakukan:
+Projects that have been done:
 - Caesar Cipher
 - Vigenere Cipher + Exhausting Key Search
 - Playfair Cipher
