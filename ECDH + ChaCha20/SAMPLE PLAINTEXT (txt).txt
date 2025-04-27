@@ -1,0 +1,1 @@
+Dengan menerapkan kombinasi ECDH dan ChaCha20, penelitian ini diperkirakan mampu meningkatkan efisiensi proses enkripsi dan dekripsi dan mengurangi penggunaan memori pada perangkat yang digunakan.

@@ -1,0 +1,5 @@
+Pada file @Simulation.py setiap running pasti menghasilkan nilai kunci yang berbeda-beda.
+Ini dikarenakan hasil random seed pada gnerator kunci privat, bisa  dilihat pada line 18 dan 22
+Waktu dan memori yag dihasilkan juga tidak beda jauh
+waktu = 201 ms
+memori = 0.14... MB

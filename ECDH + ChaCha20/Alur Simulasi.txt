@@ -1,0 +1,26 @@
+===== Alur Simulasi =====
+
+1. Pembuatan kunci dengan ECDH
+2. kunci diproses dengan KDF
+3. Algoritma ChaCha20 untuk enkripsi
+
+
+Yang dinilai nanti adalah proses pembangkitan kunci dengan ECDH dan proses enkripsi
+
+
+
+-------------------- ECDH ---------------------------
+Metode yang digunakan untuk menghasilkan kunci bersama antara dua pihak tanpa harus mengirimkan kunci ke pihak lain. 
+ECDH menggunakan ukuran kunci yang lebih kecil.
+Meskipun pihak luar mengetahui komunikasi kedua pihak, mereka tidak dapat mengetahui kunci bersama yang dihasilkan.
+
+
+-------------------- KDF ---------------------------
+Kunci yang dihasilkan ECDH belum cukup digunakan untuk melakukan enkripsi.
+Kunci tersebut diproses dengan KDF untuk menghasilkan kunci yang lebih aman dalam algoritma enkripsi.
+Misal mengubahnya menjadi lebih panjang, mengacaknya, atau menambahkan elemen tambahan.
+
+
+-------------------- ChaCha20 ---------------------------
+Algoritma enkripsi stream cipher.
+Menggunakan kunci ECDH untuk menghasilkan stream kunci
