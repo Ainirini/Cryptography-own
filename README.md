@@ -1,5 +1,5 @@
-﻿# Kriptografi
-Mata kuliah pilihan dalam bidang Pemrgoraman dan Komputasi Visual (Provikom)
+# Cryptography
+My project from Cryptography Elective Course
 ## Project
 Proyek-proyek yang telah dilakukan:
 - Caesar Cipher
